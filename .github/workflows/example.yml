@@ -20,5 +20,7 @@ jobs:
                 pip install pytest
             - name: Check Parser
               run: |
+                echo cd demo
+                cd demo
                 echo pytest parser.py
                 pytest parser.py
