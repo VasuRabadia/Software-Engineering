@@ -2,6 +2,8 @@ name: Example Workflow
 
 on:
     workflow_dispatch:
+    push:
+        branches: ['main', 'feature-*']
 
 jobs:
     unit_testing:
