@@ -5,7 +5,7 @@ def parse(s):
     else:
         sign = 1
     n = 0
-    fraction = 1.0
+    fraction = 1.4
     decimal = False
     for c in s:
         if c == ".":
