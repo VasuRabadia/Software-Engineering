@@ -1,0 +1,17 @@
+name: Diployment Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  unit_testing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get files
+        uses: actions/checkout@v2
+      - name: Example
+        run: |
+          echo $ pwd
+          pwd
+          echo $ ls -la
+          ls -la
